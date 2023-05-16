@@ -52,7 +52,7 @@ enableEmoji = true
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Eldaniz Babayev"
   name = "Eldaniz Babayev"
-  description = "Robotics student at Poland who loves to broaden his knowledge about embedded level development. Mostly specific topics, such as Linux kernel development, understanding errors on physical device level, and Rust language on embedded devices. "
+  description = "Robotics student at Poland who loves to broaden his knowledge about embedded level development. Mostly specific topics, such as kernel development, understanding code on physical device level, and Rust language on embedded devices. "
 
 [[params.socialIcons]]
 name = "github"
