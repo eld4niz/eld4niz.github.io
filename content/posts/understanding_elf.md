@@ -1,6 +1,6 @@
 ---
 title: Understanding ELF - Executable and Linkable Format
-description: 'Me :)'
+description: 'understanding elf'
 date: '2023-05-16'
 author: Eldaniz Babayev
 ---
