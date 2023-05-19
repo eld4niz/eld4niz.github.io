@@ -9,6 +9,8 @@ author: Eldaniz Babayev
 
 Operating systems play a critical role in managing computer resources and providing a user-friendly environment. Two prominent design approaches for operating system kernels are monolithic kernels and microkernels. In this article, we will delve into the characteristics of these designs and explore examples that highlight their differences. Specifically, we will examine Linux as an example of a monolithic kernel design and showcase a microkernel-based distribution for a microkernel example.
 
+If you try to access hardware within your user environment, you will get an error. Because you don't have access to hardware, you need to use kernel to access hardware, and that space called Kernel Space. Kernel is a bridge between user and hardware. It's a software that manages hardware and provides an interface for user to access hardware.
+
 <h1> Monolithic Kernel Designs </h1>
 
 A monolithic kernel is characterized by a single large kernel that encompasses all core operating system functions and services. One prominent example of a monolithic kernel design is the Linux kernel. Linux, developed by Linus Torvalds in 1991, tightly integrates device drivers, file systems, and system call handling directly into the kernel space.
@@ -36,7 +38,6 @@ MINIX, a Unix-like operating system, represents an example of a microkernel desi
 In conclusion, monolithic and microkernel designs offer different trade-offs in terms of performance, reliability, and extensibility. Monolithic kernels, like Linux, provide high performance and tight integration but can be less flexible and more susceptible to system-wide failures. On the other hand, microkernels, exemplified by MINIX, prioritize modularity, reliability, and extensibility, although with potential overhead due to inter-process communication.
 
 By understanding these architectural differences, developers and system designers can make informed decisions when selecting or designing an operating system kernel that aligns with their specific requirements.
-
 
 Thanks for reading, you can follow me on <b>GitHub/LinkedIn</b> to support me.
 
